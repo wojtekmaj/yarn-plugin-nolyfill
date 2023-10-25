@@ -1,0 +1,60 @@
+{
+  "name": "yarn-plugin-nolyfill",
+  "version": "0.1.0",
+  "description": "Yarn Berry plugin that replaces unnecessary polyfills with native implementations.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "private": true,
+  "scripts": {
+    "build": "builder build plugin",
+    "clean": "rimraf dist",
+    "lint": "eslint .",
+    "postinstall": "husky install",
+    "prepack": "yarn clean && yarn build",
+    "prettier": "prettier --check . --cache",
+    "test": "yarn lint && yarn tsc && yarn prettier",
+    "tsc": "tsc --noEmit"
+  },
+  "keywords": [
+    "yarn",
+    "berry",
+    "plugin",
+    "nolyfill"
+  ],
+  "author": {
+    "name": "Wojciech Maj",
+    "email": "kontakt@wojtekmaj.pl"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@yarnpkg/core": "^4.0.0"
+  },
+  "devDependencies": {
+    "@yarnpkg/builder": "^4.0.0",
+    "eslint": "^8.26.0",
+    "eslint-config-wojtekmaj": "^0.9.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.0",
+    "prettier": "^3.0.0",
+    "rimraf": "^3.0.0",
+    "typescript": "^5.0.0"
+  },
+  "resolutions": {
+    "eslint-plugin-import": "npm:eslint-plugin-i@^2.28.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wojtekmaj/yarn-plugin-nolyfill.git"
+  },
+  "funding": "https://github.com/wojtekmaj/yarn-plugin-nolyfill?sponsor=1",
+  "packageManager": "yarn@4.0.0"
+}
