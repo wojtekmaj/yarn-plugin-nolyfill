@@ -1,4 +1,4 @@
-[![CI](https://github.com/wojtekmaj/yarn-plugin-nolyfill/workflows/CI/badge.svg)](https://github.com/wojtekmaj/yarn-plugin-nolyfill/actions)
+[![CI](https://github.com/wojtekmaj/yarn-plugin-nolyfill/actions/workflows/ci.yml/badge.svg)](https://github.com/wojtekmaj/yarn-plugin-nolyfill/actions)
 
 # yarn-plugin-nolyfill
 
