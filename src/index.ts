@@ -2,6 +2,7 @@ import { structUtils, type Plugin, type Hooks } from '@yarnpkg/core';
 
 // Keep in sync with https://github.com/SukkaW/nolyfill/blob/master/packages/tools/cli/src/all-packages.ts
 const allPackages = [
+  'abab',
   'array-buffer-byte-length',
   'array-includes',
   'array.from',
@@ -94,6 +95,7 @@ const allPackages = [
   'typed-array-length',
   'typedarray',
   'unbox-primitive',
+  'util.promisify',
   'which-boxed-primitive',
   'which-typed-array',
 ];
