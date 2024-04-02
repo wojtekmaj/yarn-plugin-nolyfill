@@ -1,6 +1,6 @@
 {
   "name": "yarn-plugin-nolyfill",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Yarn Berry plugin that replaces unnecessary polyfills with native implementations.",
   "type": "module",
   "sideEffects": false,
