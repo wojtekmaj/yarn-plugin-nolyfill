@@ -1,7 +1,7 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.8.0/schema.json",
   "files": {
-    "ignore": [".tsimp", "bundles", "coverage", "dist", ".pnp.cjs", ".pnp.loader.mjs"]
+    "ignore": [".tsimp", ".yarn", "bundles", "coverage", "dist", ".pnp.cjs", ".pnp.loader.mjs"]
   },
   "formatter": {
     "lineWidth": 100,
