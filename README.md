@@ -6,7 +6,7 @@ Yarn Berry plugin that replaces unnecessary polyfills with native implementation
 
 ## tl;dr
 
-- Install by executing `yarn plugin import https://raw.githubusercontent.com/wojtekmaj/yarn-plugin-nolyfill/v1.0.1/bundles/@yarnpkg/plugin-nolyfill.js`.
+- Install by executing `yarn plugin import https://raw.githubusercontent.com/wojtekmaj/yarn-plugin-nolyfill/v1.0.2/bundles/@yarnpkg/plugin-nolyfill.js`.
 - Reinstall repository by executing `yarn`.
 - Poof! ✨
   ```
