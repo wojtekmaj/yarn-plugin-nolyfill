@@ -37,6 +37,9 @@
     "rimraf": "^6.0.0",
     "typescript": "^5.5.2"
   },
+  "resolutions": {
+    "cross-spawn@7.0.3": "^7.0.3"
+  },
   "publishConfig": {
     "access": "public",
     "provenance": true
