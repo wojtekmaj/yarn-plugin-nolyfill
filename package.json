@@ -34,7 +34,7 @@
     "@biomejs/biome": "2.2.4",
     "@yarnpkg/builder": "^4.0.0",
     "husky": "^9.0.0",
-    "typescript": "^5.5.2"
+    "typescript": "^5.9.2"
   },
   "resolutions": {
     "cross-spawn@7.0.3": "^7.0.3"
