@@ -54,5 +54,5 @@
     "url": "git+https://github.com/wojtekmaj/yarn-plugin-nolyfill.git"
   },
   "funding": "https://github.com/wojtekmaj/yarn-plugin-nolyfill?sponsor=1",
-  "packageManager": "yarn@4.14.0"
+  "packageManager": "yarn@4.14.1"
 }
