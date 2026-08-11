@@ -1,4 +1,5 @@
 import { structUtils } from '@yarnpkg/core';
+
 import type { Hooks, Plugin } from '@yarnpkg/core';
 
 // Keep in sync with https://github.com/SukkaW/nolyfill/blob/master/packages/tools/cli/src/all-packages.ts
